@@ -425,6 +425,7 @@ public class vistaPrincipal extends javax.swing.JFrame {
                 lbPerder.setVisible(true);      // Quito la última vida y se acaba el juego
                 listaVidas.get(vidasRestantes - 1).setVisible(false);
                 
+                JOptionPane.showMessageDialog(null, "La palabra secreta es: "+palabraSecreta);
                 panelVidas.setVisible(false);
                 jLabel4.setVisible(false);
                 lbTurnoJugador.setVisible(false);
